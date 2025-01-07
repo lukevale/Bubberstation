@@ -761,7 +761,6 @@
 	density = FALSE
 	armor_type = /datum/armor/transport_module
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
-	interaction_flags_machine = parent_type::interaction_flags_machine | INTERACT_MACHINE_OFFLINE
 	max_integrity = 750
 	integrity_failure = 0.25
 	layer = SIGN_LAYER

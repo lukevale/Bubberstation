@@ -18,7 +18,6 @@
 	desc = "A deadly syndicate monojumper cable saved from the horrors of Nanotrasen by the animal rights consortium. Its been given a new home as a power source for syndicate operations!"
 	stable_population = 4
 	random_case_rarity = FISH_RARITY_NOPE
-	fish_flags = parent_type::fish_flags & ~FISH_FLAG_SHOW_IN_CATALOG
 	beauty = FISH_BEAUTY_GOOD
 	compatible_types = list(/obj/item/fish/jumpercable, /obj/item/fish/jumpercable)
 

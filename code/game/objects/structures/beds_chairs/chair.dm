@@ -498,7 +498,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	icon_state = null
 	buildstacktype = null
 	item_chair = null
-	obj_flags = parent_type::obj_flags | NO_DEBRIS_AFTER_DECONSTRUCTION
 	alpha = 0
 	fishing_modifier = -20 //it only lives for 25 seconds, so we make them worth it.
 

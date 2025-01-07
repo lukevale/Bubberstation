@@ -369,7 +369,6 @@
 /obj/item/bodypart/leg/left/synth/digitigrade
 	icon_greyscale = BODYPART_ICON_SYNTHLIZARD
 	limb_id = BODYPART_ID_DIGITIGRADE
-	bodyshape = parent_type::bodyshape | BODYSHAPE_DIGITIGRADE
 	base_limb_id = BODYPART_ID_DIGITIGRADE
 
 /obj/item/bodypart/leg/left/synth/digitigrade/update_limb(dropping_limb = FALSE, is_creating = FALSE)
@@ -394,7 +393,6 @@
 /obj/item/bodypart/leg/right/synth/digitigrade
 	icon_greyscale = BODYPART_ICON_SYNTHLIZARD
 	limb_id = BODYPART_ID_DIGITIGRADE
-	bodyshape = parent_type::bodyshape | BODYSHAPE_DIGITIGRADE
 	base_limb_id = BODYPART_ID_DIGITIGRADE
 
 /obj/item/bodypart/leg/right/synth/digitigrade/update_limb(dropping_limb = FALSE, is_creating = FALSE)

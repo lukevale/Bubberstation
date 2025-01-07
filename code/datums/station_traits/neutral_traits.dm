@@ -34,7 +34,6 @@
 /datum/station_trait/unique_ai
 	name = "Unique AI"
 	trait_type = STATION_TRAIT_NEUTRAL
-	trait_flags = parent_type::trait_flags | STATION_TRAIT_REQUIRES_AI
 	weight = 5
 	show_in_report = TRUE
 	report_message = "For experimental purposes, this station AI might show divergence from default lawset. Do not meddle with this experiment, we've removed \

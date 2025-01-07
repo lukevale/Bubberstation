@@ -18,7 +18,6 @@
 	resistance_flags = FLAMMABLE
 	actions_types = list(/datum/action/item_action/adjust)
 	dog_fashion = /datum/dog_fashion/head/clown
-	obj_flags = parent_type::obj_flags | INFINITE_RESKIN
 	unique_reskin = list(
 			"Down Clown" = "blueclown",
 			"Jumbo" = "greenclown",

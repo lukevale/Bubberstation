@@ -132,7 +132,6 @@
 	icon_state = "arctic_juveline_lobstrosity"
 	icon_living = "arctic_juveline_lobstrosity"
 	icon_dead = "arctic_juveline_lobstrosity_dead"
-	status_flags = parent_type::status_flags | CANPUSH
 	maxHealth = 65
 	health = 65
 	obj_damage = 6

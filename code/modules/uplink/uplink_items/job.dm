@@ -404,5 +404,4 @@ BUBBER REMOVE END*/
 	restricted = TRUE
 	refundable = FALSE
 	progression_minimum = 30 MINUTES
-	purchasable_from = parent_type::purchasable_from & ~UPLINK_SPY
 

@@ -296,5 +296,4 @@
 	activate(available_fish_sources[choice], user)
 
 /obj/machinery/fishing_portal_generator/emagged
-	obj_flags = parent_type::obj_flags | EMAGGED
 	circuit = /obj/item/circuitboard/machine/fishing_portal_generator/emagged

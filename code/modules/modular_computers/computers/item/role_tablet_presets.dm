@@ -5,7 +5,6 @@
 /obj/item/modular_computer/pda/heads
 	greyscale_config = /datum/greyscale_config/tablet/head
 	greyscale_colors = "#67A364#a92323"
-	max_capacity = parent_type::max_capacity * 2
 	var/static/list/datum/computer_file/head_programs = list(
 		/datum/computer_file/program/status,
 		/datum/computer_file/program/science,

@@ -62,8 +62,6 @@
 	armour_penetration = 24
 
 /datum/embed_data/spear/brass
-	impact_pain_mult = parent_type::impact_pain_mult + 8
-	remove_pain_mult = parent_type::remove_pain_mult + 8
 
 /obj/item/clockwork/weapon/brass_battlehammer
 	name = "brass battle-hammer"

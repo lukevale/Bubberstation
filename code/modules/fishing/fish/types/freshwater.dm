@@ -26,7 +26,6 @@
 	desc = "A great rubber duck tool for Lawyers who can't get a grasp over their case."
 	stable_population = 1
 	random_case_rarity = FISH_RARITY_NOPE
-	fish_flags = parent_type::fish_flags & ~FISH_FLAG_SHOW_IN_CATALOG
 	beauty = FISH_BEAUTY_GOOD
 	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/three_eyes)
 	fish_traits = list(/datum/fish_trait/recessive)
@@ -61,7 +60,6 @@
 	desc = "A great rubber duck tool for Lawyers who can't get a grasp over their case. It looks kinda different today..."
 	compatible_types = list(/obj/item/fish/goldfish, /obj/item/fish/goldfish/three_eyes)
 	beauty = FISH_BEAUTY_GREAT
-	fish_flags = parent_type::fish_flags & ~FISH_FLAG_SHOW_IN_CATALOG
 	stable_population = 1
 	random_case_rarity = FISH_RARITY_NOPE
 

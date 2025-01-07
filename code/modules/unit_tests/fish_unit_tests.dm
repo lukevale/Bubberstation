@@ -100,7 +100,6 @@
 	fish_traits = list(/datum/fish_trait/dummy)
 	stable_population = INFINITY
 	breeding_timeout = 0
-	fish_flags = parent_type::fish_flags & ~(FISH_FLAG_SHOW_IN_CATALOG|FISH_FLAG_EXPERIMENT_SCANNABLE)
 	var/expected_num_fillets = 0 //used to know how many fillets should be gotten out of this fish
 
 /obj/item/fish/testdummy/add_fillet_type()

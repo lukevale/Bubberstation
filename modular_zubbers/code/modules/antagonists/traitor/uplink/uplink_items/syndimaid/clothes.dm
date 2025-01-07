@@ -15,7 +15,6 @@
 	 The armor on this one is bulky and blocks the user from wearing any chest armor."
 	armor_type = /datum/armor/clothing_under/syndimaid
 	body_parts_covered = CHEST|GROIN|LEGS
-	resistance_flags = parent_type::resistance_flags | FIRE_PROOF
 
 	var/is_worn = FALSE // This is to avoid any jank with the equip chain that I know exists
 
@@ -58,12 +57,10 @@
 /obj/item/clothing/head/costume/maidheadband/syndicate/armored
 	armor_type = /datum/armor/clothing_under/syndimaid
 	body_parts_covered = HEAD
-	resistance_flags = parent_type::resistance_flags | FIRE_PROOF
 
 /obj/item/clothing/gloves/combat/maid/armored
 	armor_type = /datum/armor/clothing_under/syndimaid
 	body_parts_covered = HANDS | ARMS
-	resistance_flags = parent_type::resistance_flags | FIRE_PROOF
 
 /obj/item/clothing/shoes/jackboots/heel/tactical
 	name = "tactical high-heeled jackboots"

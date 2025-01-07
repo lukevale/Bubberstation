@@ -303,7 +303,6 @@
 	name = "slime zippo"
 	desc = "A specialty zippo made from slimes and industry. Has a much hotter flame than normal."
 	icon_state = "slighter"
-	heat_while_on = parent_type::heat_while_on + 1000 //Blue flame is hotter, this means this does act as a welding tool.
 	light_color = LIGHT_COLOR_CYAN
 	overlay_state = "slime"
 	grind_results = list(/datum/reagent/iron = 1, /datum/reagent/fuel = 5, /datum/reagent/medicine/pyroxadone = 5)

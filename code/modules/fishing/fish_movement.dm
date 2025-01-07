@@ -135,7 +135,6 @@
 
 ///Generic fish movement datum with triple the short jump chance.
 /datum/fish_movement/zippy
-	short_jump_chance = parent_type::short_jump_chance * 3
 
 ///fish movement datum that progressively gets faster until acceleration and velocity are double the starting ones.
 /datum/fish_movement/accelerando

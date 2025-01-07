@@ -40,7 +40,6 @@
 	resistance_flags = FIRE_PROOF
 	skyrat_obj_flags = ANVIL_REPAIR
 
-	body_parts_covered = parent_type::body_parts_covered | ARMS
 	armor_type = /datum/armor/gloves_forging_plate_gloves
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_COLOR
 
@@ -96,7 +95,6 @@
 	icon_state = "plate_boots"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
 
-	body_parts_covered = parent_type::body_parts_covered | LEGS
 	armor_type = /datum/armor/shoes_forging_plate_boots
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_COLOR
 	resistance_flags = FIRE_PROOF
@@ -120,7 +118,6 @@
 	icon_state = "horseshoe"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-	body_parts_covered = parent_type::body_parts_covered | LEGS
 	armor_type = /datum/armor/shoes_horseshoe
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_COLOR
 	resistance_flags = FIRE_PROOF

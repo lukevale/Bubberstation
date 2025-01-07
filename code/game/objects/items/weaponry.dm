@@ -162,7 +162,6 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 
 /obj/item/claymore/cutlass/old
 	name = "old cutlass"
-	desc = parent_type::desc + " This one seems a tad old."
 	force = 24
 	throwforce = 17
 	armour_penetration = 20

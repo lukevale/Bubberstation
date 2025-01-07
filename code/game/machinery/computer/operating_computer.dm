@@ -7,7 +7,6 @@
 	icon_screen = "crew"
 	icon_keyboard = "med_key"
 	circuit = /obj/item/circuitboard/computer/operating
-	interaction_flags_machine = parent_type::interaction_flags_machine | INTERACT_MACHINE_REQUIRES_STANDING
 
 	var/obj/structure/table/optable/table
 	var/list/advanced_surgeries = list()
