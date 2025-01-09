@@ -3478,9 +3478,9 @@
 	pixel_y = 16
 	},
 /obj/machinery/door/poddoor/shutters/window/preopen{
+	dir = 8;
 	id = "paramed_dispatch_desk";
-	name = "Desk Shutters";
-	dir = 8
+	name = "Desk Shutters"
 	},
 /obj/item/paper_bin{
 	pixel_y = 4
@@ -5386,8 +5386,8 @@
 /obj/machinery/brm,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 1
+	dir = 1;
+	id = "mining"
 	},
 /turf/open/floor/plating,
 /area/station/cargo/miningdock)
@@ -10086,12 +10086,12 @@
 	},
 /obj/item/assembly/igniter,
 /obj/item/stack/package_wrap{
-	pixel_y = -1;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = -1
 	},
 /obj/item/hand_labeler{
-	pixel_y = -3;
-	pixel_x = 4
+	pixel_x = 4;
+	pixel_y = -3
 	},
 /turf/open/floor/iron/freezer,
 /area/station/medical/pharmacy)
@@ -11205,7 +11205,7 @@
 "dqZ" = (
 /obj/structure/flora/ocean/longseaweed,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/medical/medbay/lobby)
@@ -14937,8 +14937,8 @@
 	pixel_y = 1
 	},
 /obj/item/reagent_containers/spray/cleaner{
-	pixel_y = 4;
-	pixel_x = 9
+	pixel_x = 9;
+	pixel_y = 4
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/central)
@@ -16305,7 +16305,7 @@
 /obj/structure/flora/ocean/coral,
 /obj/structure/flora/ocean/glowweed,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -16942,8 +16942,8 @@
 	dir = 1
 	},
 /obj/structure/sign/directions/evac/directional/east{
-	pixel_y = -8;
-	dir = 1
+	dir = 1;
+	pixel_y = -8
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/hallway/primary/aft)
@@ -18091,9 +18091,9 @@
 	req_access = list("medical")
 	},
 /obj/machinery/door/poddoor/shutters/window/preopen{
+	dir = 8;
 	id = "paramed_dispatch_desk";
-	name = "Desk Shutters";
-	dir = 8
+	name = "Desk Shutters"
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/lobby)
@@ -19728,8 +19728,8 @@
 /area/station/service/hydroponics)
 "fNM" = (
 /obj/machinery/conveyor_switch/oneway{
-	id = "mining";
-	dir = 1
+	dir = 1;
+	id = "mining"
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
@@ -21950,8 +21950,8 @@
 	},
 /obj/structure/table/reinforced/rglass,
 /obj/item/book/manual/wiki/grenades{
-	pixel_y = 3;
-	pixel_x = -7
+	pixel_x = -7;
+	pixel_y = 3
 	},
 /obj/item/grenade/chem_grenade,
 /obj/item/grenade/chem_grenade{
@@ -29097,9 +29097,9 @@
 "itE" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/machinery/door/poddoor/shutters{
+	dir = 4;
 	id = "mechbay";
-	name = "Mech Bay Shutters";
-	dir = 4
+	name = "Mech Bay Shutters"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -31480,8 +31480,8 @@
 	},
 /obj/structure/sink/directional/east,
 /obj/structure/extinguisher_cabinet/directional/west{
-	pixel_y = 2;
-	pixel_x = -28
+	pixel_x = -28;
+	pixel_y = 2
 	},
 /turf/open/floor/iron/freezer,
 /area/station/medical/pharmacy)
@@ -32734,7 +32734,7 @@
 "jtG" = (
 /obj/structure/flora/ocean/glowweed,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/medical/medbay/lobby)
@@ -37458,8 +37458,8 @@
 "kGG" = (
 /obj/structure/table,
 /obj/item/modular_computer/laptop/preset/civilian{
-	pixel_y = 5;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 5
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
@@ -37948,7 +37948,7 @@
 /area/station/cargo/office)
 "kMZ" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -38857,7 +38857,7 @@
 "kZc" = (
 /obj/structure/flora/ocean/seaweed,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -39112,7 +39112,7 @@
 "lcC" = (
 /obj/structure/flora/rock/pile,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -42396,8 +42396,8 @@
 /area/station/engineering/atmos)
 "lUS" = (
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 8
+	dir = 8;
+	id = "mining"
 	},
 /turf/open/floor/plating,
 /area/station/cargo/miningdock)
@@ -44439,9 +44439,9 @@
 /obj/item/stack/medical/mesh,
 /obj/item/stack/medical/suture,
 /obj/machinery/door/poddoor/shutters/window/preopen{
+	dir = 8;
 	id = "paramed_dispatch_desk";
-	name = "Desk Shutters";
-	dir = 8
+	name = "Desk Shutters"
 	},
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/lobby)
@@ -46317,15 +46317,15 @@
 "mYH" = (
 /obj/structure/table,
 /obj/item/food/ready_donk/mac_n_cheese{
-	pixel_y = 3;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = 3
 	},
 /obj/item/food/ready_donk/nachos_grandes{
 	pixel_y = 7
 	},
 /obj/item/food/ready_donk/donkhiladas{
-	pixel_y = 11;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 11
 	},
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 6
@@ -50017,7 +50017,7 @@
 /obj/structure/flora/ocean/longseaweed,
 /obj/structure/flora/ocean/glowweed,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -50788,9 +50788,9 @@
 	pixel_y = 6
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
+	dir = 4;
 	id = "roboticsprivacy";
-	name = "Robotics Shutters";
-	dir = 4
+	name = "Robotics Shutters"
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/science/robotics/lab)
@@ -55239,9 +55239,9 @@
 	req_access = list("medical")
 	},
 /obj/machinery/door/poddoor/shutters/window/preopen{
+	dir = 8;
 	id = "paramed_dispatch_desk";
-	name = "Desk Shutters";
-	dir = 8
+	name = "Desk Shutters"
 	},
 /obj/item/storage/box/bandages{
 	pixel_y = 15
@@ -56328,12 +56328,12 @@
 	pixel_y = 14
 	},
 /obj/item/paper_bin{
-	pixel_y = 2;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 2
 	},
 /obj/item/pen{
-	pixel_y = 2;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 2
 	},
 /obj/item/flashlight/lamp{
 	pixel_x = -5;
@@ -63385,8 +63385,8 @@
 	pixel_y = -2
 	},
 /obj/item/stack/sheet/mineral/plasma{
-	pixel_y = -5;
-	pixel_x = 2
+	pixel_x = 2;
+	pixel_y = -5
 	},
 /turf/open/floor/iron/freezer,
 /area/station/medical/pharmacy)
@@ -63450,7 +63450,7 @@
 "rJK" = (
 /obj/structure/flora/ocean/longseaweed,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -69011,9 +69011,9 @@
 "tjC" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
 	id = "roboticsprivacy";
-	name = "Robotics Shutters";
-	dir = 8
+	name = "Robotics Shutters"
 	},
 /turf/open/floor/plating/airless,
 /area/station/science/robotics/lab)
@@ -69880,7 +69880,7 @@
 "tvN" = (
 /obj/structure/flora/rock,
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/commons/dorms)
@@ -71482,8 +71482,8 @@
 /obj/machinery/light/directional/north,
 /obj/machinery/bouldertech/refinery,
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 8
+	dir = 8;
+	id = "mining"
 	},
 /turf/open/floor/plating,
 /area/station/cargo/miningdock)
@@ -72458,8 +72458,8 @@
 	dir = 9
 	},
 /obj/item/storage/box/bandages{
-	pixel_y = 16;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 16
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/storage)
@@ -76549,9 +76549,9 @@
 "vnc" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /obj/machinery/door/poddoor/shutters{
+	dir = 4;
 	id = "mechbay";
-	name = "Mech Bay Shutters";
-	dir = 4
+	name = "Mech Bay Shutters"
 	},
 /obj/machinery/button/door/directional/north{
 	id = "mechbay";
@@ -83579,7 +83579,7 @@
 /area/station/security/courtroom)
 "xlC" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /mob/living/basic/carp/mega/shorki{
 	obj_damage = 0

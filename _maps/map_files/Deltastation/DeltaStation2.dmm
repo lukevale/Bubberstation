@@ -4099,8 +4099,8 @@
 /obj/item/clothing/glasses/welding,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/item/weldingtool/empty{
-	pixel_y = 8;
-	pixel_x = 9
+	pixel_x = 9;
+	pixel_y = 8
 	},
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
@@ -22552,8 +22552,8 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/door/window/brigdoor/right/directional/east{
 	name = "Tertiary AI Core Access";
-	req_access = list("ai_upload");
-	pixel_x = 4
+	pixel_x = 4;
+	req_access = list("ai_upload")
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai)
@@ -30352,8 +30352,8 @@
 	},
 /obj/machinery/vending/wardrobe/sec_wardrobe,
 /obj/machinery/button/door/directional/east{
-	name = "Security Mech Garage Door Controls";
 	id = "secmechbay";
+	name = "Security Mech Garage Door Controls";
 	req_access = list("security")
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -37444,8 +37444,8 @@
 	pixel_x = -6
 	},
 /obj/machinery/door/window/left/directional/north{
-	req_access = list("cargo");
-	name = "Office Desk"
+	name = "Office Desk";
+	req_access = list("cargo")
 	},
 /obj/effect/turf_decal/delivery,
 /obj/structure/desk_bell{
@@ -40531,8 +40531,8 @@
 	pixel_y = 9
 	},
 /obj/item/folder/yellow{
-	pixel_y = -5;
-	pixel_x = 5
+	pixel_x = 5;
+	pixel_y = -5
 	},
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
@@ -48324,8 +48324,8 @@
 	req_access = list("kitchen")
 	},
 /obj/machinery/button/ticket_machine{
-	pixel_y = 22;
-	pixel_x = -6
+	pixel_x = -6;
+	pixel_y = 22
 	},
 /obj/machinery/button/door/directional/west{
 	id = "hopblast";
@@ -48341,8 +48341,8 @@
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/button/photobooth{
-	pixel_y = 22;
-	pixel_x = 6
+	pixel_x = 6;
+	pixel_y = 22
 	},
 /turf/open/floor/iron/dark,
 /area/station/command/heads_quarters/hop)
@@ -49233,12 +49233,12 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/item/storage/box/monkeycubes{
-	pixel_y = 10;
-	pixel_x = 1
+	pixel_x = 1;
+	pixel_y = 10
 	},
 /obj/item/storage/box/monkeycubes{
-	pixel_y = 3;
-	pixel_x = -13
+	pixel_x = -13;
+	pixel_y = 3
 	},
 /turf/open/floor/iron,
 /area/station/science/xenobiology)
@@ -74592,8 +74592,8 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/door/window/brigdoor/left/directional/west{
 	name = "Secondary AI Core Access";
-	req_access = list("ai_upload");
-	pixel_x = -4
+	pixel_x = -4;
+	req_access = list("ai_upload")
 	},
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai)

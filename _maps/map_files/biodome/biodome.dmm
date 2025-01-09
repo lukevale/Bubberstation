@@ -376,7 +376,7 @@
 /obj/machinery/elevator_control_panel/directional/east{
 	linked_elevator_id = "biodome_medbay_lift";
 	name = "Medbay Lift Control Panel";
-	preset_destination_names = list("2"="LowerMedbay","3"="UpperMedbay")
+	preset_destination_names = list("2" = "LowerMedbay", "3" = "UpperMedbay")
 	},
 /obj/structure/railing{
 	dir = 4
@@ -2880,8 +2880,8 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/bed/dogbed/mcgriff{
-	name = "Beepsky's bed";
-	desc = "Beepsky's bed, because even crimefighters sometimes need a nap."
+	desc = "Beepsky's bed, because even crimefighters sometimes need a nap.";
+	name = "Beepsky's bed"
 	},
 /obj/item/pillow,
 /turf/open/floor/iron/dark/small,
@@ -4430,8 +4430,8 @@
 	dir = 8
 	},
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 8
+	dir = 8;
+	id = "mining"
 	},
 /obj/machinery/bouldertech/refinery/smelter,
 /turf/open/floor/iron/smooth,
@@ -6164,7 +6164,7 @@
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "biodome_engie_lift";
 	name = "Engineering's Lifts Control Panel";
-	preset_destination_names = list("2"="EngineeringAccess","3"="StorageZone")
+	preset_destination_names = list("2" = "EngineeringAccess", "3" = "StorageZone")
 	},
 /turf/open/openspace,
 /area/station/hallway/primary/aft)
@@ -10044,16 +10044,16 @@
 /area/station/biodome/fore)
 "dwf" = (
 /obj/structure/sign/directions/engineering/directional/north{
-	pixel_y = 35;
-	dir = 4
+	dir = 4;
+	pixel_y = 35
 	},
 /obj/structure/sign/directions/medical/directional/north{
-	pixel_y = 28;
-	dir = 4
+	dir = 4;
+	pixel_y = 28
 	},
 /obj/structure/sign/directions/security/directional/north{
-	pixel_y = 21;
-	dir = 4
+	dir = 4;
+	pixel_y = 21
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
@@ -12962,7 +12962,7 @@
 	},
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "biodome_science_lift";
-	preset_destination_names = list("2"="LowerResearch","3"="UpperResearch")
+	preset_destination_names = list("2" = "LowerResearch", "3" = "UpperResearch")
 	},
 /obj/structure/transport/linear/public,
 /turf/open/floor/plating/elevatorshaft,
@@ -13120,8 +13120,8 @@
 "eAU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 1
+	dir = 1;
+	id = "mining"
 	},
 /turf/open/floor/iron/smooth,
 /area/station/cargo/warehouse)
@@ -15857,8 +15857,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/elevator/right/directional/west{
-	transport_linked_id = "biodome_brig_lift";
-	elevator_mode = 1
+	elevator_mode = 1;
+	transport_linked_id = "biodome_brig_lift"
 	},
 /turf/open/floor/iron/dark/smooth_half,
 /area/station/security/brig)
@@ -16471,8 +16471,8 @@
 "fGr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor_switch/oneway{
-	id = "mining";
-	dir = 1
+	dir = 1;
+	id = "mining"
 	},
 /turf/open/floor/iron/smooth_large,
 /area/station/cargo/warehouse)
@@ -16819,9 +16819,9 @@
 "fNp" = (
 /mob/living/basic/goat{
 	desc = "Not known for their pleasant disposition. This one seems a bit more hardy to the cold.";
-	name = "Snowy Pete";
+	habitable_atmos = list("min_oxy" = 1, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0);
 	minimum_survivable_temperature = 150;
-	habitable_atmos = list("min_oxy"=1,"max_oxy"=0,"min_plas"=0,"max_plas"=1,"min_co2"=0,"max_co2"=5,"min_n2"=0,"max_n2"=0)
+	name = "Snowy Pete"
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/kitchen_coldroom/freezerfloor,
@@ -28193,8 +28193,8 @@
 	dir = 8
 	},
 /obj/machinery/button/door/directional/west{
-	name = "Observation Shutters";
-	id = "nt_rep_priv_2"
+	id = "nt_rep_priv_2";
+	name = "Observation Shutters"
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
@@ -30101,7 +30101,7 @@
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "biodome_engie_lift";
 	name = "Engineering's Lifts Control Panel";
-	preset_destination_names = list("2"="EngineeringAccess","3"="StorageZone")
+	preset_destination_names = list("2" = "EngineeringAccess", "3" = "StorageZone")
 	},
 /obj/structure/transport/linear/public,
 /turf/open/floor/plating/elevatorshaft,
@@ -46745,8 +46745,8 @@
 "qaU" = (
 /obj/structure/railing,
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 1
+	dir = 1;
+	id = "mining"
 	},
 /obj/machinery/brm,
 /turf/open/floor/iron/smooth,
@@ -49304,8 +49304,8 @@
 "qSY" = (
 /obj/machinery/suit_storage_unit/security,
 /obj/machinery/door/window/brigdoor/right/directional/east{
-	req_access = list("captain");
-	name = "Blueshield's Armory"
+	name = "Blueshield's Armory";
+	req_access = list("captain")
 	},
 /obj/machinery/light/directional/west,
 /obj/machinery/newscaster/directional/west,
@@ -53588,7 +53588,7 @@
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "biodome_brig_lift";
 	name = "Brig Lift Control Panel";
-	preset_destination_names = list("2"="LowerBrig","3"="UpperBrig")
+	preset_destination_names = list("2" = "LowerBrig", "3" = "UpperBrig")
 	},
 /obj/structure/railing{
 	dir = 1
@@ -59341,8 +59341,8 @@
 "uqN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/conveyor{
-	id = "mining";
-	dir = 8
+	dir = 8;
+	id = "mining"
 	},
 /obj/machinery/bouldertech/refinery,
 /turf/open/floor/iron/smooth,
@@ -70582,8 +70582,8 @@
 	dir = 4
 	},
 /obj/structure/sign/directions/command/directional/north{
-	pixel_y = 25;
-	dir = 4
+	dir = 4;
+	pixel_y = 25
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/port)
