@@ -314,7 +314,7 @@ GLOBAL_LIST_INIT(call911_do_and_do_not, list(
 	desc = "A small experimental microcomputer, up to Terragov 911 Responder standards."
 	greyscale_config = /datum/greyscale_config/tablet/captain
 	greyscale_colors = "#EAEAEA#66CCFF#FFCC00#5F5F5F"
-	max_capacity = parent_type::max_capacity * 2
+	max_capacity = 64 * 2
 	inserted_item = /obj/item/pen/fountain
 	long_ranged = TRUE
 	starting_programs = list(

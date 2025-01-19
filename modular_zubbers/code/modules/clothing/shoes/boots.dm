@@ -279,6 +279,6 @@
 	icon_state = "horseshoe"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
-	body_parts_covered = parent_type::body_parts_covered | LEGS
+	body_parts_covered = FEET | LEGS
 	resistance_flags = FIRE_PROOF
 	can_be_tied = FALSE
