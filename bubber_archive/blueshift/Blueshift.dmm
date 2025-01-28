@@ -7676,8 +7676,8 @@
 	},
 /obj/structure/cable,
 /obj/machinery/door/window/brigdoor/right/directional/north{
-	req_access = list("armory");
-	name = "Warden's Desk"
+	name = "Warden's Desk";
+	req_access = list("armory")
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/warden)
@@ -10505,8 +10505,8 @@
 	dir = 4
 	},
 /obj/machinery/door/window/right/directional/east{
-	req_access = list("cargo");
-	name = "Medbay Deliveries"
+	name = "Medbay Deliveries";
+	req_access = list("cargo")
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
@@ -12989,8 +12989,8 @@
 	pixel_y = -3
 	},
 /obj/machinery/door/window/right/directional/south{
-	req_access = list("medical");
-	name = "First-Aid Supplies"
+	name = "First-Aid Supplies";
+	req_access = list("medical")
 	},
 /turf/open/floor/iron,
 /area/station/medical/storage)
@@ -13845,18 +13845,18 @@
 /obj/item/storage/box/ingredients/fiesta,
 /obj/item/storage/box/ingredients/american,
 /obj/item/reagent_containers/condiment/flour{
-	list_reagents = list(/datum/reagent/consumable/flour=600);
+	list_reagents = list(/datum/reagent/consumable/flour = 600);
 	name = "Premium All-Purpose Flour (16KG)";
 	volume = 600
 	},
 /obj/item/reagent_containers/condiment/milk,
 /obj/item/reagent_containers/condiment/enzyme{
-	list_reagents = list(/datum/reagent/consumable/enzyme=500);
+	list_reagents = list(/datum/reagent/consumable/enzyme = 500);
 	name = "universe-sized universal enyzyme";
 	volume = 500
 	},
 /obj/item/reagent_containers/condiment/rice{
-	list_reagents = list(/datum/reagent/consumable/rice=150);
+	list_reagents = list(/datum/reagent/consumable/rice = 150);
 	name = "Basmati Rice Sack (4KG)";
 	volume = 150
 	},
@@ -14699,7 +14699,7 @@
 /area/station/hallway/secondary/construction)
 "cMo" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/rock/pile/jungle/style_4,
 /turf/open/misc/asteroid,
@@ -18091,7 +18091,7 @@
 /obj/structure/railing,
 /obj/machinery/elevator_control_panel/directional/south{
 	linked_elevator_id = "publicElevator";
-	preset_destination_names = list("2"="Lower  Deck","3"="Upper  Deck")
+	preset_destination_names = list("2" = "Lower  Deck", "3" = "Upper  Deck")
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/station/hallway/primary/central)
@@ -21385,9 +21385,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/vg_decals/numbers/six,
 /obj/machinery/door/window/brigdoor/left/directional/east{
-	req_access = list("security");
+	id = "Cell 6";
 	name = "Cell 6";
-	id = "Cell 6"
+	req_access = list("security")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 4
@@ -26016,7 +26016,7 @@
 /area/station/science/server)
 "eUH" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/ocean/glowweed,
 /turf/open/misc/asteroid,
@@ -26339,8 +26339,8 @@
 "eXN" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin{
-	pixel_y = 1;
-	pixel_x = 10
+	pixel_x = 10;
+	pixel_y = 1
 	},
 /obj/item/pen{
 	pixel_x = 10
@@ -27465,18 +27465,18 @@
 /obj/item/storage/box/ingredients/fiesta,
 /obj/item/storage/box/ingredients/american,
 /obj/item/reagent_containers/condiment/flour{
-	list_reagents = list(/datum/reagent/consumable/flour=600);
+	list_reagents = list(/datum/reagent/consumable/flour = 600);
 	name = "Premium All-Purpose Flour (16KG)";
 	volume = 600
 	},
 /obj/item/reagent_containers/condiment/milk,
 /obj/item/reagent_containers/condiment/enzyme{
-	list_reagents = list(/datum/reagent/consumable/enzyme=500);
+	list_reagents = list(/datum/reagent/consumable/enzyme = 500);
 	name = "universe-sized universal enyzyme";
 	volume = 500
 	},
 /obj/item/reagent_containers/condiment/rice{
-	list_reagents = list(/datum/reagent/consumable/rice=150);
+	list_reagents = list(/datum/reagent/consumable/rice = 150);
 	name = "Basmati Rice Sack (4KG)";
 	volume = 150
 	},
@@ -33001,8 +33001,8 @@
 /obj/structure/chair/sofa/bench/left,
 /obj/machinery/light/small/directional/north,
 /obj/machinery/camera/directional/north{
-	network = list("ss13","prison");
-	c_tag = "Prison - Locker Room"
+	c_tag = "Prison - Locker Room";
+	network = list("ss13","prison")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 1
@@ -42013,8 +42013,8 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/right/directional/west{
-	req_access = list("armory");
-	name = "Armoury Desk"
+	name = "Armoury Desk";
+	req_access = list("armory")
 	},
 /obj/machinery/door/window/right/directional/east{
 	name = "Armoury Desk";
@@ -43076,8 +43076,8 @@
 	dir = 4
 	},
 /obj/machinery/door/window/left/directional/west{
-	req_access = list("robotics");
-	name = "Robotics Desk"
+	name = "Robotics Desk";
+	req_access = list("robotics")
 	},
 /obj/machinery/door/window/left/directional/east{
 	name = "Robotics Desk"
@@ -48881,9 +48881,9 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/right/directional/west{
-	req_access = list("security");
+	id = "Cell 1";
 	name = "Cell 1";
-	id = "Cell 1"
+	req_access = list("security")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -50392,8 +50392,8 @@
 /area/station/maintenance/fore/upper)
 "jHd" = (
 /obj/machinery/door/airlock/security{
-	name = "Isolation Cell 1";
-	id_tag = "IsolationCell_1"
+	id_tag = "IsolationCell_1";
+	name = "Isolation Cell 1"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
@@ -51763,9 +51763,9 @@
 	dir = 4
 	},
 /obj/machinery/door/window/brigdoor/left/directional/east{
-	req_access = list("security");
+	id = "Cell 4";
 	name = "Cell 4";
-	id = "Cell 4"
+	req_access = list("security")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 4
@@ -54539,8 +54539,8 @@
 	dir = 8
 	},
 /obj/machinery/door/window/right/directional/east{
-	req_access = list("cargo");
-	name = "Service Deliveries"
+	name = "Service Deliveries";
+	req_access = list("cargo")
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
@@ -62993,8 +62993,8 @@
 	dir = 4
 	},
 /obj/machinery/door/window/right/directional/east{
-	req_access = list("cargo");
-	name = "Security Deliveries"
+	name = "Security Deliveries";
+	req_access = list("cargo")
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
@@ -66596,7 +66596,7 @@
 /area/station/common/wrestling/arena)
 "mMJ" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/rock/pile/jungle/style_5,
 /turf/open/misc/asteroid,
@@ -66851,8 +66851,8 @@
 /area/station/maintenance/disposal)
 "mPt" = (
 /obj/machinery/door/window/brigdoor/right/directional/west{
-	req_access = list("security");
-	name = "Cell 2"
+	name = "Cell 2";
+	req_access = list("security")
 	},
 /turf/closed/wall,
 /area/station/security/brig)
@@ -66885,7 +66885,7 @@
 /area/station/medical/medbay/lobby)
 "mPK" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/item/toy/seashell,
 /turf/open/misc/asteroid,
@@ -70605,7 +70605,7 @@
 "nBU" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/pill/cyanide{
-	list_reagents = list(/datum/reagent/drug/bath_salts=15);
+	list_reagents = list(/datum/reagent/drug/bath_salts = 15);
 	name = "The red pill";
 	pixel_x = -3;
 	pixel_y = 11
@@ -75005,7 +75005,7 @@
 /area/station/science/ordnance/testlab)
 "oqO" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/ocean/seaweed,
 /mob/living/basic/carp/passive,
@@ -79127,7 +79127,7 @@
 /area/station/command/heads_quarters/ce)
 "pgY" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/machinery/light/directional/north,
 /turf/open/misc/asteroid,
@@ -82644,9 +82644,9 @@
 "pQX" = (
 /obj/item/radio/intercom/directional/south,
 /obj/structure/secure_safe/caps_spare{
+	density = 0;
 	pixel_x = 5;
-	pixel_y = -37;
-	density = 0
+	pixel_y = -37
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -84275,8 +84275,8 @@
 /area/station/hallway/primary/starboard)
 "qgJ" = (
 /obj/machinery/button/door/directional/south{
-	name = "Security Mech Garage Door Controls";
 	id = "SecMech";
+	name = "Security Mech Garage Door Controls";
 	req_access = list("security")
 	},
 /obj/effect/turf_decal/stripes/blue/line{
@@ -86526,9 +86526,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/vg_decals/numbers/three,
 /obj/machinery/door/window/brigdoor/right/directional/west{
-	req_access = list("security");
+	id = "Cell 3";
 	name = "Cell 3";
-	id = "Cell 3"
+	req_access = list("security")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -90188,7 +90188,7 @@
 /area/station/maintenance/department/medical/central)
 "rko" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/rock/pile/jungle,
 /obj/item/toy/seashell,
@@ -99319,8 +99319,8 @@
 	},
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/door/window/brigdoor/right/directional/west{
-	req_access = list("security");
-	name = "Cell 2"
+	name = "Cell 2";
+	req_access = list("security")
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
@@ -100596,7 +100596,7 @@
 /area/station/command/captain_dining)
 "tiA" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/ocean/glowweed,
 /mob/living/basic/carp/passive,
@@ -102880,8 +102880,8 @@
 	dir = 8
 	},
 /obj/machinery/door/window/right/directional/east{
-	req_access = list("cargo");
-	name = "Science Deliveries"
+	name = "Science Deliveries";
+	req_access = list("cargo")
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
@@ -104582,8 +104582,8 @@
 	dir = 8
 	},
 /obj/machinery/door/window/right/directional/east{
-	req_access = list("cargo");
-	name = "Engineering Deliveries"
+	name = "Engineering Deliveries";
+	req_access = list("cargo")
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/sorting)
@@ -108794,8 +108794,8 @@
 /area/station/security/interrogation)
 "uNl" = (
 /turf/open/floor/iron/stairs{
-	icon_state = "stairs_wood";
-	icon = 'icons/obj/stairs.dmi'
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_wood"
 	},
 /area/station/common/pool)
 "uNn" = (
@@ -111408,11 +111408,11 @@
 "vof" = (
 /obj/docking_port/stationary{
 	dir = 4;
+	dwidth = 43;
 	height = 19;
 	name = "Deprecated Port Dock";
 	shuttle_id = "whiteship_home";
-	width = 55;
-	dwidth = 43
+	width = 55
 	},
 /turf/open/space/basic,
 /area/space)
@@ -112313,9 +112313,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/vg_decals/numbers/five,
 /obj/machinery/door/window/brigdoor/left/directional/east{
-	req_access = list("security");
+	id = "Cell 5";
 	name = "Cell 5";
-	id = "Cell 5"
+	req_access = list("security")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 4
@@ -114467,8 +114467,8 @@
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/right/directional/west{
-	req_access = list("security");
-	name = "Cell 2"
+	name = "Cell 2";
+	req_access = list("security")
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
@@ -116028,7 +116028,7 @@
 /area/station/maintenance/fore/upper)
 "wfr" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/ocean/longseaweed,
 /turf/open/misc/asteroid,
@@ -117272,8 +117272,8 @@
 /area/station/command/heads_quarters/captain)
 "wru" = (
 /obj/machinery/door/airlock/security{
-	name = "Isolation Cell 2";
-	id_tag = "IsolationCell_2"
+	id_tag = "IsolationCell_2";
+	name = "Isolation Cell 2"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
@@ -120799,8 +120799,8 @@
 	dir = 4
 	},
 /obj/machinery/button/door/directional/east{
-	name = "Security Mech Garage Door Controls";
 	id = "SecMech";
+	name = "Security Mech Garage Door Controls";
 	req_access = list("security")
 	},
 /obj/machinery/recharge_station,
@@ -121650,9 +121650,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/vg_decals/numbers/two,
 /obj/machinery/door/window/brigdoor/right/directional/west{
-	req_access = list("security");
+	id = "Cell 2";
 	name = "Cell 2";
-	id = "Cell 2"
+	req_access = list("security")
 	},
 /turf/open/floor/iron/dark/side{
 	dir = 8
@@ -122739,7 +122739,7 @@
 /area/station/cargo/storage)
 "xtV" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /turf/open/misc/asteroid,
 /area/station/hallway/primary/upper)
@@ -124437,7 +124437,7 @@
 /area/station/science/research)
 "xLg" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/rock/pile/jungle/style_3,
 /obj/structure/flora/ocean/coral,
@@ -125332,7 +125332,7 @@
 /area/station/hallway/primary/central/aft)
 "xVz" = (
 /obj/effect/spawner/liquids_spawner{
-	reagent_list = list(/datum/reagent/water=600)
+	reagent_list = list(/datum/reagent/water = 600)
 	},
 /obj/structure/flora/rock/style_4,
 /turf/open/misc/asteroid,
