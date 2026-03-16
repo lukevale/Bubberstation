@@ -88,3 +88,9 @@
   - bugfix: Icewalkers can now use custom characters again.
   - bugfix: Certain real-world figures have once again been spotted in select bitrunning
       domains.
+2026-03-16:
+  MrGloopy:
+  - rscadd: Front pack, waist pack and belt pack for selection in character preferences,
+      found under the regular bag selection. Despite the names, still equipped on
+      your back.
+  - image: Supporting sprites for the new roundstart bags
