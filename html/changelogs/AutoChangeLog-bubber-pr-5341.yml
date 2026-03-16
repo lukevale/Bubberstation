@@ -1,0 +1,5 @@
+author: "MrGloopy"
+delete-after: True
+changes:
+  - rscadd: "Front pack, waist pack and belt pack for selection in character preferences, found under the regular bag selection. Despite the names, still equipped on your back."
+  - image: "Supporting sprites for the new roundstart bags"
