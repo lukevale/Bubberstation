@@ -33,13 +33,6 @@
 
 /datum/unit_test/design_source/Run()
 	var/list/all_designs = list()
-	var/list/exceptions = list(
-		// BUBBER EDIT ADDITION BEGIN - Exclude tg designs that we've removed from the techweb
-		/datum/design/mag_autorifle,
-		/datum/design/mag_autorifle/ap_mag,
-		/datum/design/mag_autorifle/ic_mag,
-		// BUBBER EDIT ADDITION END - Exclude tg designs that we've removed from the techweb
-	)
 
 	for (var/datum/design/design as anything in subtypesof(/datum/design))
 		design = new design()
