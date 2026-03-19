@@ -97,3 +97,6 @@
 2026-03-18:
   BurgerBB:
   - bugfix: Prevents hypno lipsticks from randomly spawning in common containers.
+2026-03-19:
+  TealSeer:
+  - bugfix: fixed buckled mob offsets resetting as soon as you moved
