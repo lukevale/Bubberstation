@@ -1,0 +1,4 @@
+author: "BurgerBB"
+delete-after: True
+changes:
+  - rscadd: "Adds a reagent that lets you remove c4 stuck to people. It can be made by mixing Space Lube, Space Cleaner, and Drying Reagent together and spraying it on someone."
