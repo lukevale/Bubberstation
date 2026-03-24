@@ -141,6 +141,14 @@
 	name = "Red and White Collared Suit"
 	item_path = /obj/item/clothing/under/red_and_white_collared_outfit
 
+/datum/loadout_item/uniform/miscellaneous/midnightdress
+	name = "Midnight Gown"
+	item_path = /obj/item/clothing/under/dress/bubber/midnight_gown
+
+/datum/loadout_item/uniform/miscellaneous/giant_scarf
+	name = "Giant Scarf"
+	item_path = /obj/item/clothing/under/dress/bubber/giant_scarf
+
 /datum/loadout_item/uniform/miscellaneous/lewdmaid
 	name = "Latex Maid Costume"
 	item_path = /obj/item/clothing/under/costume/lewdmaid
