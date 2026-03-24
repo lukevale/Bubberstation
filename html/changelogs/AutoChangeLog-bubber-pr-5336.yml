@@ -1,4 +1,0 @@
-author: "BurgerBB"
-delete-after: True
-changes:
-  - balance: "Mining Equipment that requires low pressure to work now works in areas with water vapor in it."
