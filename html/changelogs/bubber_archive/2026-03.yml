@@ -161,3 +161,7 @@
   - bugfix: Vampire drink names not matching other drinks.
   - bugfix: Minor sprite adjustments to vamp drinks; should sit better on tables when
       poured.
+2026-03-28:
+  SomeCabbage:
+  - rscadd: Added 4 new shuttles to the purchasable lineup, with varying prices and
+      qualities.
