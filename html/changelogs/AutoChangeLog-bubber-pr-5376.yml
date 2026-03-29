@@ -1,0 +1,4 @@
+author: "ibexgoetia"
+delete-after: True
+changes:
+  - bugfix: "The off-station implant now includes an implant pad"
