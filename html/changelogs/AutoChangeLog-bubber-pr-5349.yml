@@ -1,0 +1,6 @@
+author: "Majkl-J"
+delete-after: True
+changes:
+  - balance: "The leather saddle and peacekeeper saddle are now equipped in belt slots"
+  - balance: "The peacekeeper saddle is now bulky and can hold a baton and cuffs."
+  - image: "Cuff and baton overlays for the peacekeeper saddle"
