@@ -1,0 +1,4 @@
+author: "ArrisFairburne"
+delete-after: True
+changes:
+  - qol: "Cleaned up the character preference window."
