@@ -189,16 +189,21 @@ export enum PrefsWindow {
 export type CharacterPreferencesData = {
   preview_options: string[]; // SKYRAT EDIT ADDITION
   preview_selection: string; // SKYRAT EDIT ADDITION
-  clothing: Record<string, string>;
-  features: Record<string, string>;
-  game_preferences: Record<string, unknown>;
-  non_contextual: {
-    random_body: RandomSetting;
-    [otherKey: string]: unknown;
-  };
-  secondary_features: Record<string, unknown>;
-  supplemental_features: Record<string, unknown>;
-  manually_rendered_features: Record<string, string>;
+
+  character_preferences: {
+    clothing: Record<string, string>;
+    features: Record<string, string>;
+    game_preferences: Record<string, unknown>;
+    non_contextual: {
+      random_body: RandomSetting;
+      [otherKey: string]: unknown;
+    };
+    secondary_features: Record<string, unknown>;
+    character_basics: Record<string, unknown>; // BUBBER EDIT ADDITION: more character setup tabs
+    ooc_preferences: Record<string, unknown>; // BUBBER EDIT ADDITION: more character setup tabs
+    silicon_preferences: Record<string, unknown>; // BUBBER EDIT ADDITION: more character setup tabs
+    supplemental_features: Record<string, unknown>;
+    manually_rendered_features: Record<string, string>;
 
   names: Record<string, string>;
 
