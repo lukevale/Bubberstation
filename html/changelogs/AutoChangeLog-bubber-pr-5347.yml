@@ -1,0 +1,4 @@
+author: "BurgerBB"
+delete-after: True
+changes:
+  - rscdel: "Removes Hot Potato from maintenance loot because I died to it once."
