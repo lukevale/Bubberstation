@@ -1,5 +1,0 @@
-author: "SapphoQueer"
-delete-after: True
-changes:
-  - balance: "The proto-kinetic shotgun now does 20 damage per pellet instead of 15."
-  - balance: "The proto-kinectic shotgun does less total damage with the traitor modkit, doing a maximum of 10 damage per pellet."
