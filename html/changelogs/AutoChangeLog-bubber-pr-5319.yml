@@ -1,0 +1,4 @@
+author: "Danielance"
+delete-after: True
+changes:
+  - rscadd: "added/fixed missing digi leg and teshari sprites for 13 miscellaneous undersuit clothes (list can be found on PR 5319), and most CentCom clothes"
