@@ -1,9 +1,6 @@
 /obj/item/disk/bitrunning/prefs
 	name = "DeForest biological simulation disk"
 	desc = "A disk containing the biological simulation data necessary to load custom characters into bitrunning domains."
-	icon = 'icons/obj/devices/circuitry_n_data.dmi'
-	base_icon_state = "datadisk"
-	icon_state = "datadisk0"
 
 	w_class = WEIGHT_CLASS_SMALL
 

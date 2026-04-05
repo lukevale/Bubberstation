@@ -54,6 +54,7 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/armadyne
 	mask = /obj/item/clothing/mask/balaclava
 	head = /obj/item/clothing/head/helmet/cin_surplus_helmet/forest
+	back = /obj/item/storage/backpack/industrial/cin_surplus/forest
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/plasma_marksman,
 		/obj/item/ammo_box/magazine/recharge/plasma_battery = 3,

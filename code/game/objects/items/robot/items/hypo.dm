@@ -4,6 +4,7 @@
 		/datum/reagent/medicine/c2/convermol,\
 		/datum/reagent/medicine/epinephrine,\
 		/datum/reagent/medicine/c2/libital,\
+		/datum/reagent/medicine/lidocaine, /* BUBBER EDIT ADD */ \
 		/datum/reagent/medicine/c2/multiver,\
 		/datum/reagent/medicine/salglu_solution,\
 		/datum/reagent/medicine/spaceacillin,\

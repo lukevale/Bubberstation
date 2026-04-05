@@ -35,7 +35,7 @@
 	for(var/datum/reagent/chem as anything in limb.owner.reagents?.reagent_list)
 		if(!length(bloodfilter.whitelist) || !(chem.type in bloodfilter.whitelist))
 			limb.owner.reagents.remove_reagent(chem.type, clamp(round(chem.volume * 0.22, 0.2), 0.4, 10))
-
+	limb.owner.adjust_tox_loss(clamp(round(limb.owner.get_tox_loss() * -0.07, 2), -2, -10), forced = TRUE) // BUBBER EDIT ADDITION - Filtration fixes toxins
 	display_results(
 		surgeon,
 		limb.owner,
@@ -58,6 +58,10 @@
 	limb.receive_damage(5, damage_source = tool)
 
 /datum/surgery_operation/limb/filter_blood/proc/has_filterable_chems(mob/living/carbon/target, obj/item/blood_filter/bloodfilter)
+	// BUBBER EDIT ADDITION BEGIN - Filtration fixes toxins
+	if(target.get_tox_loss() > 0)
+		return TRUE
+	// BUBBER EDIT ADDITION END
 	if(!length(target.reagents?.reagent_list))
 		bloodfilter.audible_message(span_notice("[bloodfilter] pings as it reports no chemicals detected in [target]'s blood."))
 		playsound(target, 'sound/machines/ping.ogg', 75, TRUE, falloff_exponent = 12, falloff_distance = 1)

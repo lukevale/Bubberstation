@@ -69,7 +69,6 @@
 /obj/machinery/ammo_workbench/Initialize(mapload)
 	materials = new( \
 		src, \
-		/datum/material_container, \
 		SSmaterials.materials_by_category[MAT_CATEGORY_ITEM_MATERIAL], \
 		200000, \
 		MATCONTAINER_EXAMINE, \
@@ -462,6 +461,7 @@
 		. += "ammobench_loaded"
 
 /obj/machinery/ammo_workbench/Destroy()
+	QDEL_NULL(materials)
 	QDEL_NULL(wires)
 	if(timer_id)
 		deltimer(timer_id)

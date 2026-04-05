@@ -440,7 +440,7 @@
 /obj/item/disk/computer/plantgene
 	name = "plant data disk"
 	desc = "A disk for storing plant genetic data."
-	icon_state = "datadisk_hydro"
+	icon_state = "datadisk4"
 	custom_materials = list(/datum/material/iron=30, /datum/material/glass=10)
 	var/datum/plant_gene/gene
 	read_only = FALSE //Well, it's still a floppy disk
@@ -448,7 +448,7 @@
 
 /obj/item/disk/computer/plantgene/Initialize(mapload)
 	. = ..()
-	add_overlay("datadisk_gene")
+	set_sticker_icon_state("o_dna1")
 	src.pixel_x = rand(-5, 5)
 	src.pixel_y = rand(-5, 5)
 
