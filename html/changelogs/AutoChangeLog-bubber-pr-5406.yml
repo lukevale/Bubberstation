@@ -1,0 +1,4 @@
+author: "explosivekitty"
+delete-after: True
+changes:
+  - bugfix: "multiple venomous bite buttons will no longer appear every time you swap bodies or use SAD"
