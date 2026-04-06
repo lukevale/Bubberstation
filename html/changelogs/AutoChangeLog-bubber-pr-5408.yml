@@ -1,0 +1,4 @@
+author: "explosivekitty"
+delete-after: True
+changes:
+  - rscdel: "Russian revolver no longer makes you DNR after you shoot yourself"
