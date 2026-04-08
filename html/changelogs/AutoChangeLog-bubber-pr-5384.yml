@@ -1,4 +1,0 @@
-author: "Swan"
-delete-after: True
-changes:
-  - bugfix: "fixes emitters not changing their appearance depending on the state they're in"
