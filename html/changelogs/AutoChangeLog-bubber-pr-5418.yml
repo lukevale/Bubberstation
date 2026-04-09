@@ -1,4 +1,0 @@
-author: "TealSeer"
-delete-after: True
-changes:
-  - server: "alternate job titles in save files are now validated on load"
