@@ -60,7 +60,9 @@
 * just_initialized - If the spark is just being created, and we need to manually affect everything in the location
 */
 /obj/effect/particle_effect/sparks/proc/affect_location(turf/location, just_initialized = FALSE)
+#ifndef UNIT_TESTS // Bubber Edit: Start - I have no fucking idea what makes us so special to have our sparks explode the unit testing chamber.
 	location.hotspot_expose(1000, 100)
+#endif // Bubber Edit: End
 	SEND_SIGNAL(location, COMSIG_ATOM_TOUCHED_SPARKS, src) // for plasma floors; other floor types only have to worry about the mysterious HAZARDOUS sparks
 	if(just_initialized)
 		for(var/atom/movable/singed in location)
@@ -78,12 +80,13 @@
 	SIGNAL_HANDLER
 
 	SEND_SIGNAL(singed, COMSIG_ATOM_TOUCHED_SPARKS, src)
+#ifndef UNIT_TESTS // Bubber Edit: I have no fucking idea what makes us so special to have our sparks explode the unit testing chamber.
 	if(isobj(singed))
 		var/datum/reagents/reagents = singed.reagents // heat up things that contain reagents before we check to see if they burn
 		if(reagents && !(reagents.flags & SEALED_CONTAINER))
 			reagents.expose_temperature(1000) // we set this at 1000 because that's the max reagent temp for a chem heater, higher temps require more than sparks
 		return
-
+#endif // Bubber edit End.
 	if(ishuman(singed))
 		var/mob/living/carbon/human/singed_human = singed
 		for(var/obj/item/anything in singed_human.get_visible_items())

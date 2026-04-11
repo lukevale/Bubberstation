@@ -38,7 +38,6 @@
 		/obj/item/mod/module/shove_blocker,
 		/obj/item/mod/module/night,
 		/obj/item/mod/module/welding/syndicate,
-		/obj/item/mod/module/headprotector,
 	)
 	default_pins = list(
 		/obj/item/mod/module/jetpack/advanced,
