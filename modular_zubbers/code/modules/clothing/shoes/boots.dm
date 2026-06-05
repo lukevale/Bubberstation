@@ -320,6 +320,7 @@
 
 /obj/item/clothing/shoes/jackboots/heel/Initialize(mapload)
 	. = ..()
+	AddComponent(/datum/component/squeak, list('modular_zubbers/sound/effects/footstep/highheel1.ogg' = 1, 'modular_zubbers/sound/effects/footstep/highheel2.ogg' = 1, 'modular_zubbers/sound/effects/footstep/highheel3.ogg' = 1, 'modular_zubbers/sound/effects/footstep/highheel4.ogg' = 1), 70)
 	var/list/reskin_components = GetComponents(/datum/component/reskinable_item)
 	for(var/datum/component/reskinable_item/reskin_component as anything in reskin_components)
 		qdel(reskin_component)
@@ -399,3 +400,7 @@
 	icon = 'modular_zubbers/icons/obj/clothing/feet/feet.dmi'
 	worn_icon = 'modular_zubbers/icons/mob/clothing/feet/feet.dmi'
 	clothing_traits = list(TRAIT_SILENT_FOOTSTEPS)
+
+/obj/item/clothing/shoes/workboots/black
+	worn_icon_digi = 'modular_zubbers/icons/mob/clothing/feet/feet_digi.dmi'
+	worn_icon_teshari = 'modular_zubbers/icons/mob/clothing/feet/feet_teshari.dmi'
