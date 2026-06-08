@@ -1,0 +1,16 @@
+{
+	"puppy_vest": [
+		{
+			"type": "icon_state",
+			"icon_state": "puppy_base",
+			"blend_mode": "overlay",
+			"color_ids": [1]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "puppy_trim",
+			"blend_mode": "overlay",
+			"color_ids": [2]
+		}
+	]
+}

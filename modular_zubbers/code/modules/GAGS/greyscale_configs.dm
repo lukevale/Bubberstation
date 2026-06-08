@@ -455,3 +455,12 @@
 	name = "'Dagger' Designer Mantle (Worn)"
 	json_config = 'modular_zubbers/code/datums/greyscale/json_configs/neck/dagger_mantle/dagger_mantle_worn.json'
 ///Greyscale clothing Nova port end
+
+/datum/greyscale_config/puppy_vest
+	name = "Puppy Vest"
+	icon_file = 'modular_zubbers/icons/obj/clothing/suits/greyscale_suits.dmi'
+	json_config = 'modular_zubbers/code/datums/greyscale/json_configs/suit/puppyvest/puppy_vest.json'
+
+/datum/greyscale_config/puppy_vest/worn
+	name = "Puppy Vest (Worn)"
+	icon_file = 'modular_zubbers/icons/mob/clothing/suits/greyscale_suits.dmi'

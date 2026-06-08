@@ -257,3 +257,7 @@
 /datum/loadout_item/suit/greyscale/furred_trench
 	name = "Furred Trenchcoat"
 	item_path = /obj/item/clothing/suit/greyscale/furred_trenchcoat
+
+/datum/loadout_item/suit/puppy_vest
+	name = "Service Vest"
+	item_path = /obj/item/clothing/suit/puppy_vest
