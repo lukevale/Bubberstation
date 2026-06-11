@@ -3,7 +3,7 @@
 	desc = "Fix this"
 	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
 	icon_state = "/obj/item/clothing/suit/puppy_vest"
-	post_init_icon_state = "puppy_base"
+	post_init_icon_state = "puppy_vest"
 	greyscale_config = /datum/greyscale_config/puppy_vest
 	greyscale_config_worn = /datum/greyscale_config/puppy_vest/worn
 	greyscale_colors = "#2d3a46#ffcc66"
